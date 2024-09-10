@@ -1,4 +1,4 @@
-import java.sql.SQLOutput;
+
 
 class Multiples {
 
@@ -12,12 +12,17 @@ class Multiples {
                 positives ++;
                 i++;
             } else if (divisibleby3) {
+
                 positives ++;
                 i++;
+
             } else if (divisibleby5) {
+
                 positives++;
                 i++;
+
             }else {
+
                 i++;
             }
         }
